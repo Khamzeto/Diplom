@@ -50,7 +50,6 @@ function AdminPage() {
 
     fetchData();
     return () => {
-      // Cancel the request here if needed
     };
   }, []);
   const [isChecked, setIsChecked] = useState(true);
