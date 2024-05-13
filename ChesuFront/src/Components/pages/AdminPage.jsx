@@ -270,7 +270,7 @@ function AdminPage() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://172.20.10.5:4000/service');
+        const response = await fetch('http://localhost:4000/service');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
