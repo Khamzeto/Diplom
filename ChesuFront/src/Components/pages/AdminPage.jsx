@@ -305,7 +305,7 @@ function AdminPage() {
 
   const deleteStudents = async () => {
     try {
-      const response = await fetch('http://172.20.10.5:4000/service/only', {
+      const response = await fetch('http://localhost:4000/service/only', {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
