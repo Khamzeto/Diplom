@@ -1,4 +1,4 @@
 [build]
-  base = "ChesuFront"
-  publish = "ChesuFront/build" # укажите путь к директории сборки относительно базовой директории
+  base = "Diplom"
+  publish = "Diplom/ChesuFront" # укажите путь к директории сборки относительно базовой директории
   command = "npm run build" # команда для сборки вашего проекта
